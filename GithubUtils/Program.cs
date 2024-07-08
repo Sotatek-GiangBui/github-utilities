@@ -33,6 +33,7 @@ public class Program
         if (!result)
         {
             Console.WriteLine("Unzip operation is failed");
+            return;
         }
         Console.WriteLine($"Unzip operation completed");
 
